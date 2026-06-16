@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">~/<span class="logo-name">yourname</span></a>
+    <nav class="nav-links">
+      <a href="#about"><span class="num">01</span>about</a>
+      <a href="#projects"><span class="num">02</span>projects</a>
+      <a href="#skills"><span class="num">03</span>skills</a>
+      <a href="#contact"><span class="num">04</span>contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">$ whoami</p>
+      <h1 class="hero-title">
+        <span class="hero-line" data-prefix="const">name</span>
+        <span class="hero-line hero-line--accent">= "Your Name";</span>
+      </h1>
+      <p class="hero-sub">Software developer who builds things that work, then makes them work well. Currently focused on full‑stack web development.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-terminal" aria-hidden="true">
+      <div class="terminal-bar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span class="terminal-title">profile.sh</span>
+      </div>
+      <pre class="terminal-body"><code><span class="tk-comment">// status</span>
+<span class="tk-key">role</span>:        <span class="tk-str">"Software Developer"</span>
+<span class="tk-key">location</span>:    <span class="tk-str">"India"</span>
+<span class="tk-key">stack</span>:       [<span class="tk-str">"JS"</span>, <span class="tk-str">"React"</span>, <span class="tk-str">"Node"</span>]
+<span class="tk-key">status</span>:      <span class="tk-str">"open_to_work"</span>
+<span class="tk-key">coffee_level</span>: <span class="tk-num">98</span><span class="tk-comment">%</span></code></pre>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a developer who enjoys turning ambiguous problems into clean, working software.
+        I care about readable code, fast feedback loops, and shipping things that actually
+        get used — not just demoed. Outside of writing code, I'm usually reading about new
+        tools, breaking my own projects on purpose, or fixing the bugs I just introduced.
+      </p>
+      <ul class="about-facts">
+        <li><span class="fact-label">Based in</span><span class="fact-value">India</span></li>
+        <li><span class="fact-label">Focus</span><span class="fact-value">Full‑Stack Web Dev</span></li>
+        <li><span class="fact-label">Currently</span><span class="fact-value">Open to opportunities</span></li>
+        <li><span class="fact-label">Tools</span><span class="fact-value">VS Code · Git · Linux</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Web App</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repository">Code</a>
+            <a href="#" aria-label="Live demo">Live</a>
+          </div>
+        </div>
+        <h3 class="project-title">Project One</h3>
+        <p class="project-desc">A short, concrete description of what this project does and the problem it solves for the user.</p>
+        <ul class="project-stack">
+          <li>React</li><li>Node.js</li><li>MongoDB</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">API</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repository">Code</a>
+            <a href="#" aria-label="Live demo">Live</a>
+          </div>
+        </div>
+        <h3 class="project-title">Project Two</h3>
+        <p class="project-desc">A short, concrete description of what this project does and the problem it solves for the user.</p>
+        <ul class="project-stack">
+          <li>Express</li><li>PostgreSQL</li><li>Docker</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Tool</span>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repository">Code</a>
+            <a href="#" aria-label="Live demo">Live</a>
+          </div>
+        </div>
+        <h3 class="project-title">Project Three</h3>
+        <p class="project-desc">A short, concrete description of what this project does and the problem it solves for the user.</p>
+        <ul class="project-stack">
+          <li>Python</li><li>Flask</li><li>Redis</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3 class="skill-group-title">Languages</h3>
+        <ul class="skill-list">
+          <li>JavaScript</li><li>TypeScript</li><li>Python</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 class="skill-group-title">Frontend</h3>
+        <ul class="skill-list">
+          <li>React</li><li>HTML / CSS</li><li>Tailwind</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 class="skill-group-title">Backend</h3>
+        <ul class="skill-list">
+          <li>Node.js</li><li>Express</li><li>REST APIs</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3 class="skill-group-title">Tools</h3>
+        <ul class="skill-list">
+          <li>Git / GitHub</li><li>Docker</li><li>Linux</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-block">
+      <p class="contact-lead">Have a project in mind, or just want to talk shop? My inbox is open.</p>
+      <a href="mailto:you@example.com" class="contact-email">you@example.com</a>
+      <div class="contact-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Built by Your Name · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
